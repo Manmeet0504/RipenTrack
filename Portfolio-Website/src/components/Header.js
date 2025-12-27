@@ -27,7 +27,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            <span className="logo-text">🍎 RipenTrack 🍌</span>
+            <span className="logo-text"><span className="emoji">🍎</span> RipenTrack <span className="emoji">🍌</span></span>
           </Link>
 
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>
@@ -38,9 +38,9 @@ const Header = () => {
                 className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {item.path === '/' && '🏠 '}
-                {item.path === '/about' && '📖 '}
-                {item.path === '/project' && '🚀 '}
+                {item.path === '/' && <span className="emoji">🏠 </span>}
+                {item.path === '/about' && <span className="emoji">📖 </span>}
+                {item.path === '/project' && <span className="emoji">🚀 </span>}
                 {item.label}
               </Link>
             ))}

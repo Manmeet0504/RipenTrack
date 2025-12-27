@@ -35,14 +35,14 @@ const Footer = () => {
         <div className="footer-section">
           <h4>🌐 Connect</h4>
           <div className="social-links">
-            <a href="https://github.com/Manmeet0504" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-link"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/manmeet-singh-a8681b204" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link"><FaLinkedin /></a>
+            <a href="#" aria-label="GitHub"><FaGithub /></a>
+            <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>🍊 &copy; 2024 RipenTrack 🍇 | Thapar Institute of Engineering & Technology 🎓</p>
+        <p>🍊 &copy; 2024 RipenTrack Team 🍇 | Thapar Institute of Engineering & Technology 🎓</p>
       </div>
     </footer>
   );

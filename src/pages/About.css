@@ -1,11 +1,11 @@
 ﻿/* General Styles */
 .about {
   padding: 0;
-  background: linear-gradient(180deg, #fffbf5 0%, #fff8e1 100%);
+  background: #f0f4f8;
 }
 
 .about-hero {
-  background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
+  background: linear-gradient(135deg, #20c997 0%, #17a2b8 100%);
   padding: 8rem 0 6rem;
   text-align: center;
   color: white;
@@ -28,7 +28,7 @@
 
 .project-context {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #fff3e0 0%, #fffbf5 100%);
+  background: white;
 }
 
 .context-content {
@@ -79,7 +79,7 @@
 
 .objectives-section {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #f1f8e9 0%, #fff8e1 100%);
+  background: white;
 }
 
 .objectives-section h2 {
@@ -131,7 +131,7 @@
 
 .demo-section {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #e8f5e9 0%, #fff3e0 100%);
+  background: #f0f4f8;
 }
 
 .demo-section h2 {

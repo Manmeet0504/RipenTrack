@@ -10,7 +10,7 @@
 
 .home {
   margin-top: 70px;
-  background: #fdfbf7;
+  background: linear-gradient(180deg, #fdfbf7 0%, #fffbf5 100%);
 }
 
 /* HERO - LIGHT SAGE GREEN */
@@ -53,15 +53,51 @@
   letter-spacing: -1px;
 }
 
+/* PRESERVE EMOJI COLORS EVERYWHERE */
+.emoji,
+h1 .emoji,
+h2 .emoji,
+h3 .emoji,
+p .emoji,
+.hero-title .emoji,
+.section-title .emoji,
+.hero-subtitle .emoji {
+  background: transparent !important;
+  background-image: none !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+  background-clip: border-box !important;
+  color: inherit !important;
+  filter: none !important;
+}
+
 .hero-subtitle {
   font-size: 1.4rem;
   color: #5d4037;
   font-weight: 500;
   line-height: 1.6;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.demo-notice {
+  background: rgba(255, 255, 255, 0.9);
+  border-left: 4px solid #66bb6a;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 0.95rem;
+  color: #2e7d32;
+  line-height: 1.6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.demo-notice strong {
+  color: #1b5e20;
+  font-weight: 700;
 }
 
 .hero-buttons {
@@ -72,7 +108,8 @@
   margin-bottom: 4rem;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   padding: 1.2rem 3rem;
   font-size: 1.1rem;
   font-weight: 700;
@@ -106,63 +143,72 @@
   transform: translateY(-3px);
 }
 
-/* DEVICE MOCKUP - WHITE CARD WITH GREEN SCREEN */
+/* DEVICE MOCKUP - MODERN CARD LAYOUT */
 .device-mockup {
-  max-width: 380px;
+  max-width: 450px;
   margin: 0 auto;
   background: white;
-  border-radius: 30px;
-  padding: 1.5rem;
+  border-radius: 24px;
+  padding: 2rem;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 .device-screen {
   background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
   border-radius: 20px;
-  padding: 2.5rem 2rem;
-  text-align: center;
+  padding: 2rem;
 }
 
 .device-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #2e7d32;
-  font-weight: 700;
-  margin-bottom: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  text-align: center;
   letter-spacing: 0.5px;
 }
 
 .status-grid {
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .status-item {
-  text-align: left;
-  padding: 1rem;
+  text-align: center;
+  padding: 1.2rem 0.8rem;
   background: white;
-  border-radius: 12px;
-  border-left: 4px solid #66bb6a;
+  border-radius: 16px;
+  border: 2px solid #c8e6c9;
+  transition: all 0.3s ease;
+}
+
+.status-item:hover {
+  transform: translateY(-3px);
+  border-color: #66bb6a;
+  box-shadow: 0 8px 20px rgba(102, 187, 106, 0.15);
 }
 
 .status-label {
-  font-size: 0.85rem;
-  color: #2e7d32;
+  font-size: 0.75rem;
+  color: #66bb6a;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
 }
 
 .status-value {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #1b5e20;
   font-weight: 900;
+  line-height: 1.2;
 }
 
-/* FEATURES - CLEAN WHITE CARDS */
+/* FEATURES - GRADIENT BACKGROUND */
 .features {
   padding: 6rem 2rem;
-  background: white;
+  background: linear-gradient(135deg, #fffbf5 0%, #fff3e0 100%);
 }
 
 .features .container {
@@ -193,13 +239,14 @@
 }
 
 .feature-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   padding: 2.5rem;
   border-radius: 20px;
   text-align: center;
   transition: all 0.3s ease;
-  border: 1px solid #e8e8e8;
+  border: 1px solid rgba(200, 230, 201, 0.3);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
 }
 
 .feature-card:hover {
@@ -212,11 +259,24 @@
   font-size: 3rem;
   color: #66bb6a !important;
   margin-bottom: 1.5rem;
+  background: none !important;
 }
 
 .feature-icon svg {
   color: #66bb6a !important;
   fill: #66bb6a !important;
+  background: none !important;
+}
+
+.feature-icon svg circle,
+.feature-icon svg rect,
+.feature-icon svg path {
+  fill: #66bb6a !important;
+}
+
+/* Remove any wrapper backgrounds */
+.feature-icon-wrapper {
+  background: none !important;
 }
 
 .feature-card h3 {
@@ -232,79 +292,86 @@
   font-weight: 500;
 }
 
-/* HOW IT WORKS - SOFT GRADIENT */
+/* HOW IT WORKS - COMPACT CLEAN LAYOUT */
 .how-it-works {
-  padding: 6rem 2rem;
+  padding: 5rem 2rem;
   background: linear-gradient(135deg, #f1f8e9 0%, #fff8e1 100%);
 }
 
 .how-it-works .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .how-it-works h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   color: #2e7d32;
 }
 
 .steps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2.5rem;
-  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .step-card {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 20px;
-  text-align: center;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.8rem 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid rgba(200, 230, 201, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
 }
 
 .step-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(102, 187, 106, 0.1);
-  border-color: #66bb6a;
+  border-color: #c8e6c9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .step-number {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 1.5rem;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
   background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
   color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
 .step-card h3 {
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  color: #2e7d32;
+  margin-bottom: 0.3rem;
+  color: #1b5e20;
+  text-align: left;
 }
 
 .step-card p {
-  color: #5d4037;
-  line-height: 1.7;
+  color: #6d4c41;
+  line-height: 1.6;
   font-weight: 500;
+  font-size: 0.95rem;
+  text-align: left;
+  margin: 0;
+  flex: 1;
 }
 
-/* OVERVIEW - CREAM BACKGROUND */
+/* OVERVIEW - GRADIENT BACKGROUND */
 .overview {
   padding: 6rem 2rem;
-  background: #fffbf5;
+  background: linear-gradient(135deg, #fff8e1 0%, #fffbf5 100%);
 }
 
 .overview .container {
@@ -486,20 +553,20 @@
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .overview-content {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .overview-stats {
     grid-template-columns: 1fr;
   }
-  
+
   .features h2,
   .how-it-works h2,
   .overview h2,

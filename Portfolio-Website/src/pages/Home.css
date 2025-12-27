@@ -1,4 +1,4 @@
-/* FRESH NATURAL EARTH TONES - NO PURPLE/BLUE */
+/* FORCE REFRESH v2.0 - ONLY GREEN NATURAL COLORS - ZERO PURPLE */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -210,8 +210,13 @@
 
 .feature-icon {
   font-size: 3rem;
-  color: #66bb6a;
+  color: #66bb6a !important;
   margin-bottom: 1.5rem;
+}
+
+.feature-icon svg {
+  color: #66bb6a !important;
+  fill: #66bb6a !important;
 }
 
 .feature-card h3 {

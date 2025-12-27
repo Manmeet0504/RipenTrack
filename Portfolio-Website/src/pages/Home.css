@@ -116,6 +116,68 @@
   margin: 0 auto;
 }
 
+.floating-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.device-mockup {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border: 2px solid #c8e6c9;
+}
+
+.device-screen {
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.device-title {
+  text-align: center;
+  color: #1b5e20;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.status-item {
+  text-align: center;
+}
+
+.status-label {
+  font-size: 0.9rem;
+  color: #43a047;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-value {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1b5e20;
+}
+
+.ripeness-value {
+  color: #2e7d32;
+}
+
+.quality-value {
+  color: #43a047;
+}
+
 .mockup {
   background: white;
   border-radius: 20px;

@@ -35,8 +35,8 @@ const Footer = () => {
         <div className="footer-section">
           <h4>🌐 Connect</h4>
           <div className="social-links">
-            <a href="#" aria-label="GitHub"><FaGithub /></a>
-            <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
+            <a href="https://github.com/Manmeet0504" aria-label="GitHub"><FaGithub /></a>
+            <a href="https://linkedin.com/in/manmeet0504" aria-label="LinkedIn"><FaLinkedin /></a>
           </div>
         </div>
       </div>

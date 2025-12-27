@@ -67,7 +67,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="feature-icon-wrapper">
-              <FaSeedling className="feature-icon" />
+              <FaSeedling className="feature-icon" style={{ color: '#66bb6a' }} />
             </div>
             <h3>🍎 Smart Agriculture</h3>
             <p>Innovative IoT solution for non-invasive fruit ripeness detection</p>
@@ -81,7 +81,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="feature-icon-wrapper">
-              <FaMicrochip className="feature-icon" />
+              <FaMicrochip className="feature-icon" style={{ color: '#66bb6a' }} />
             </div>
             <h3>🔧 IoT Hardware</h3>
             <p>ESP32 microcontroller with AS7341 11-channel spectral sensor</p>
@@ -95,7 +95,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="feature-icon-wrapper">
-              <FaBrain className="feature-icon" />
+              <FaBrain className="feature-icon" style={{ color: '#66bb6a' }} />
             </div>
             <h3>🧠 Machine Learning</h3>
             <p>Deep learning model with 95% accuracy for ripeness classification</p>
@@ -109,7 +109,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="feature-icon-wrapper">
-              <FaWifi className="feature-icon" />
+              <FaWifi className="feature-icon" style={{ color: '#66bb6a' }} />
             </div>
             <h3>☁️ Cloud Integration</h3>
             <p>WiFi-enabled data transmission to web-based analytics platform</p>

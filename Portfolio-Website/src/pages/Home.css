@@ -126,8 +126,8 @@
 
 .mockup-header {
   text-align: center;
-  color: #2e7d32;
-  font-weight: 700;
+  color: #1b5e20;
+  font-weight: 800;
   margin-bottom: 2.5rem;
   font-size: 1.5rem;
 }
@@ -144,23 +144,23 @@
 
 .metric-label {
   font-size: 0.95rem;
-  color: #757575;
+  color: #2e7d32;
   margin-bottom: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .metric-value {
   font-size: 3rem;
   font-weight: 900;
-  color: #2e7d32;
+  color: #1b5e20;
 }
 
 .metric-value.good {
-  color: #43a047;
+  color: #2e7d32;
 }
 
 .metric-value.warning {
-  color: #ff6f00;
+  color: #ef6c00;
 }
 
 /* FEATURES - CLEAN WHITE SECTION */

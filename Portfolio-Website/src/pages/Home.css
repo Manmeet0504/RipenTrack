@@ -13,7 +13,7 @@
 /* HERO - SOFT GRADIENT */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #e8f5e9 0%, #fff3e0 100%);
+  background: linear-gradient(135deg, #e8f5e9 0%, #fff3e0 100%) !important;
   padding: 8rem 2rem 4rem;
   position: relative;
   overflow: hidden;

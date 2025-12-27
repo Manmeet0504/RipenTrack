@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
-import './App.css';
+import './styles/App.css';
 
 function ScrollToTop() {
   const { pathname } = useLocation();

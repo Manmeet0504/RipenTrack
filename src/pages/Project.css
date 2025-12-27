@@ -5,8 +5,8 @@
 
 /* Hero Section */
 .project-hero {
-  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
-  color: white;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: #2c3e50;
   padding: 6rem 0;
   text-align: center;
 }

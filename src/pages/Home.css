@@ -8,7 +8,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+  background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%);
   position: relative;
   overflow: hidden;
 }
@@ -75,7 +75,7 @@
 
 .btn-primary {
   background: white;
-  color: #27ae60;
+  color: #ee9ca7;
 }
 
 .btn-primary:hover {
@@ -92,7 +92,7 @@
 
 .btn-secondary:hover {
   background: white;
-  color: #27ae60;
+  color: #ee9ca7;
 }
 
 .floating-card {
@@ -154,7 +154,7 @@
 .value {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #667eea;
+  color: #ff6b6b;
 }
 
 /* Features Section */
@@ -209,7 +209,7 @@
 
 .feature-icon {
   font-size: 3rem;
-  color: #27ae60;
+  color: #ff6b6b;
   margin-bottom: 1rem;
 }
 

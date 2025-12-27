@@ -7,22 +7,22 @@ const Home = () => {
   const features = [
     {
       icon: <FaLeaf />,
-      title: "Smart Agriculture",
+      title: "🍎 Smart Agriculture",
       description: "Innovative IoT solution for non-invasive fruit ripeness detection"
     },
     {
       icon: <FaMicrochip />,
-      title: "IoT Hardware",
+      title: "🔧 IoT Hardware",
       description: "ESP32 microcontroller with AS7341 11-channel spectral sensor"
     },
     {
       icon: <FaBrain />,
-      title: "Machine Learning",
+      title: "🧠 Machine Learning",
       description: "Deep learning model with 95% accuracy for ripeness classification"
     },
     {
       icon: <FaWifi />,
-      title: "Cloud Integration",
+      title: "☁️ Cloud Integration",
       description: "WiFi-enabled data transmission to web-based analytics platform"
     }
   ];
@@ -192,15 +192,15 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             className="cta-content"
           >
-            <h2>Experience the Future of Agriculture</h2>
-            <p>See our IoT system in action with our interactive simulation</p>
+            <h2>Explore the Project</h2>
+            <p>Discover how our IoT system works and the technology behind it</p>
             <motion.a
-              href="/simulation"
+              href="/demo"
               className="btn btn-primary btn-large"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Try Live Demo
+              View Demonstration
             </motion.a>
           </motion.div>
         </div>

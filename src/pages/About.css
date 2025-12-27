@@ -5,7 +5,7 @@
 
 /* Hero Section */
 .about-hero {
-  background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   color: white;
   padding: 6rem 0;
   text-align: center;
@@ -28,6 +28,217 @@
 /* Project Context */
 .project-context {
   padding: 6rem 0;
+  background: #fff;
+}
+
+.context-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.context-content h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.context-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.academic-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, #667eea20 0%, #764ba220 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 3rem;
+  border-left: 4px solid #ee9ca7;
+}
+
+.academic-icon {
+  font-size: 3rem;
+  color: #ee9ca7;
+  flex-shrink: 0;
+}
+
+.academic-info h4 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.academic-info p {
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Objectives Section */
+.objectives-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #ffecd220 0%, #fcb69f20 100%);
+}
+
+.objectives-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.objective-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid #ee9ca7;
+}
+
+.objective-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.objective-icon {
+  font-size: 3rem;
+  color: #ee9ca7;
+  margin-bottom: 1.5rem;
+}
+
+.objective-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.objective-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Demo Section */
+.demo-section {
+  padding: 6rem 0;
+  background: #fff;
+}
+
+.demo-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 3rem;
+}
+
+.demo-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.demo-image-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.demo-image-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.demo-image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-caption {
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #2c3e50;
+  background: linear-gradient(135deg, #ffecd220 0%, #fcb69f20 100%);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .context-content h2,
+  .objectives-section h2,
+  .demo-section h2 {
+    font-size: 2rem;
+  }
+
+  .objectives-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-images-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .context-content h2,
+  .objectives-section h2,
+  .demo-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .objective-card {
+    padding: 1.5rem;
+  }
+}
   background: white;
 }
 
@@ -167,7 +378,7 @@
 
 .objective-icon {
   font-size: 3rem;
-  color: #667eea;
+  color: #ff6b6b;
   margin-bottom: 1rem;
 }
 

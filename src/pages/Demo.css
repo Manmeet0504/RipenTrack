@@ -5,7 +5,7 @@
 
 /* Hero Section */
 .demo-hero {
-  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+  background: linear-gradient(135deg, #ff7675 0%, #fab1a0 100%);
   color: white;
   padding: 6rem 0;
   text-align: center;
@@ -122,7 +122,7 @@
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
   color: white;
   font-size: 2rem;
   font-weight: 700;
@@ -138,7 +138,7 @@
 
 .step-icon {
   font-size: 2rem;
-  color: #27ae60;
+  color: #ff6b6b;
   margin-bottom: 1rem;
 }
 
@@ -292,7 +292,7 @@
   padding: 2.5rem;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  border-top: 4px solid #27ae60;
+  border-top: 4px solid #ff6b6b;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -317,7 +317,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 10px;
-  border-left: 3px solid #27ae60;
+  border-left: 3px solid #ff6b6b;
 }
 
 .spec-item {

@@ -19,7 +19,7 @@ RipenTrack_Website/
 
 ## 🌐 Portfolio Website
 
-Visit our live portfolio: **[Deployed on Netlify - Link will be updated after deployment]**
+**Live Site**: [ripentrack.netlify.app](https://ripentrack.netlify.app)
 
 The portfolio website is built with React.js and showcases:
 - 🎯 Project overview and objectives
@@ -68,32 +68,11 @@ The complete IoT fruit ripeness detection system includes:
 
 ## 🚀 Deployment
 
-### Website Auto-Deployment (Netlify)
+The Portfolio-Website is deployed on Netlify with automatic deployment configured:
 
-The Portfolio-Website is configured for automatic deployment:
-
-1. **Netlify Configuration**: `Portfolio-Website/netlify.toml`
-2. **Build Command**: `npm run build`
-3. **Publish Directory**: `build`
-4. **Auto-deploy**: Triggers on push to `main` branch
-
-### Setting up Netlify (First Time)
-
-1. Go to [https://www.netlify.com/](https://www.netlify.com/)
-2. Sign in with GitHub
-3. Click "Add new site" → "Import an existing project"
-4. Choose GitHub and select this repository
-5. Configure build settings:
-   - **Base directory**: `Portfolio-Website`
-   - **Build command**: `npm run build`
-   - **Publish directory**: `Portfolio-Website/build`
-6. Click "Deploy site"
-
-Netlify will automatically:
-- Build and deploy on every push to main branch
-- Provide a live URL (e.g., `ripentrack.netlify.app`)
-- Enable HTTPS automatically
-- Handle redirects for React Router
+- **Live URL**: [Visit RipenTrack Portfolio](https://ripentrack.netlify.app)
+- **Auto-deploy**: Every push to `main` branch triggers automatic build and deployment
+- **Configuration**: See `Portfolio-Website/netlify.toml` for build settings
 
 ## 📊 Project Highlights
 

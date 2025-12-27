@@ -34,7 +34,7 @@ const About = () => {
           >
             <h1>🍊 About RipenTrack 🥭</h1>
             <p className="hero-subtitle">
-              A comprehensive IoT solution addressing real-world challenges in 
+              A comprehensive IoT solution addressing real-world challenges in
               agricultural technology and smart farming systems 🌱🚜
             </p>
           </motion.div>
@@ -53,16 +53,16 @@ const About = () => {
           >
             <h2>📖 Project Background 🌟</h2>
             <p>
-              RipenTrack emerged from the critical need to modernize fruit quality 
-              assessment in agricultural supply chains. Traditional manual inspection 
+              RipenTrack emerged from the critical need to modernize fruit quality
+              assessment in agricultural supply chains. Traditional manual inspection
               methods are time-consuming, subjective, and prone to human error. 🔍
             </p>
             <p>
-              Our final-year engineering project focuses on developing an automated, 
-              IoT-based solution that leverages spectral sensing technology and 
+              Our final-year engineering project focuses on developing an automated,
+              IoT-based solution that leverages spectral sensing technology and
               machine learning to provide accurate, real-time fruit ripeness detection. 🍓⚡
             </p>
-            
+
             <div className="academic-info">
               <FaGraduationCap className="academic-icon" />
               <div>
@@ -106,7 +106,7 @@ const About = () => {
         <div className="container">
           <h2>📸 System Demonstration 🚀</h2>
           <p className="section-subtitle">Our working prototype in action 🔬🍎</p>
-          
+
           <div className="demo-images-grid">
             <motion.div
               className="demo-image-card"
@@ -118,7 +118,7 @@ const About = () => {
               <img src="/images/demo-image1.jpg" alt="RipenTrack System Demo 1" />
               <p className="image-caption">🔧 Hardware Setup & Sensor Integration 🌈</p>
             </motion.div>
-            
+
             <motion.div
               className="demo-image-card"
               initial={{ opacity: 0, scale: 0.9 }}

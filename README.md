@@ -12,9 +12,7 @@ RipenTrack_Website/
 │   └── netlify.toml          # Netlify deployment configuration
 │
 └── Actual Code for the Project/  # IoT system implementation
-    ├── app/                   # Flask backend and ML model
-    ├── ESP32 code/           # Microcontroller firmware
-    └── Resources/            # Project documentation and reports
+    ├── Final_Capstone/                   # Flask backend and ML model
 ```
 
 ## 🌐 Portfolio Website
@@ -64,15 +62,13 @@ The complete IoT fruit ripeness detection system includes:
 **Institution**: Thapar Institute of Engineering & Technology  
 **Department**: Computer Science & Engineering  
 **Project Type**: Final Year Capstone Project  
-**Year**: 2024-2025
+**Year**: 2023-2024
 
 ## 🚀 Deployment
 
 The Portfolio-Website is deployed on Netlify with automatic deployment configured:
 
-- **Live URL**: [Visit RipenTrack Portfolio](https://ripentrack.netlify.app)
-- **Auto-deploy**: Every push to `main` branch triggers automatic build and deployment
-- **Configuration**: See `Portfolio-Website/netlify.toml` for build settings
+- **Live URL**: [Visit RipenTrack Portfolio](https://manmeet0504ripentrack.netlify.app)
 
 ## 📊 Project Highlights
 
@@ -103,7 +99,7 @@ The Portfolio-Website is deployed on Netlify with automatic deployment configure
 
 ## 📄 Documentation
 
-Complete project documentation including reports, presentations, and technical specifications can be found in the `Actual Code for the Project/Resources/` directory.
+Complete project documentation including reports, presentations, and technical specifications can be found in the `Actual Code for the Project/Final_Capstone/` directory.
 
 ## 🤝 Contributing
 

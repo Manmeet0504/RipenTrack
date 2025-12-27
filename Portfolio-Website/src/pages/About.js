@@ -115,8 +115,8 @@ const About = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <img src="/images/demo-image1.jpg" alt="RipenTrack System Demo 1" />
-              <p className="image-caption">🔧 Hardware Setup & Sensor Integration 🌈</p>
+              <img src="/images/demo-image1.jpg" alt="RipenTrack Real-time Detection" />
+              <p className="image-caption">⚡ Real-time Detection & Classification 🤖</p>
             </motion.div>
 
             <motion.div
@@ -126,8 +126,8 @@ const About = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <img src="/images/demo-image2.jpg" alt="RipenTrack System Demo 2" />
-              <p className="image-caption">⚡ Real-time Detection & Classification 🤖</p>
+              <img src="/images/demo-image2.jpg" alt="RipenTrack Hardware Setup" />
+              <p className="image-caption">🔧 Hardware Setup & Sensor Integration 🌈</p>
             </motion.div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaSeedling, FaMicrochip, FaBrain, FaWifi } from 'react-icons/fa';
-import './Home.css';
+import '../styles/Home.css';
 
 const Home = () => {
   return (

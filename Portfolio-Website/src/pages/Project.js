@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaMicrochip, FaBrain, FaCode, FaChartLine } from 'react-icons/fa';
-import './Project.css';
+import '../styles/Project.css';
 
 const Project = () => {
   const techStack = [

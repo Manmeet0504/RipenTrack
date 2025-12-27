@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaLightbulb, FaBullseye, FaCogs } from 'react-icons/fa';
-import './About.css';
+import '../styles/About.css';
+import demoImage1 from '../assets/images/demo-image1.jpg';
+import demoImage2 from '../assets/images/demo-image2.jpg';
 
 const About = () => {
   const objectives = [
@@ -115,7 +117,7 @@ const About = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <img src="/images/demo-image1.jpg" alt="RipenTrack Real-time Detection" />
+              <img src={demoImage1} alt="RipenTrack Real-time Detection" />
               <p className="image-caption">⚡ Real-time Detection & Classification 🤖</p>
             </motion.div>
 
@@ -126,7 +128,7 @@ const About = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <img src="/images/demo-image2.jpg" alt="RipenTrack Hardware Setup" />
+              <img src={demoImage2} alt="RipenTrack Hardware Setup" />
               <p className="image-caption">🔧 Hardware Setup & Sensor Integration 🌈</p>
             </motion.div>
           </div>

@@ -1,9 +1,21 @@
-/* Footer Styles */
+/* FOOTER - MATCHING CYAN/PINK THEME */
 .footer {
-  background: linear-gradient(135deg, #1e3a32 0%, #2d5a4d 100%);
+  background: linear-gradient(135deg, #0e7490 0%, #be185d 100%);
   color: white;
   padding: 4rem 0 1rem;
   margin-top: 4rem;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(236, 72, 153, 0.2) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .footer-content {
@@ -13,24 +25,26 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-section h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #20c997;
+  color: #fbbf24;
   font-weight: 700;
 }
 
 .footer-section h4 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: #20c997;
+  color: #fbbf24;
   font-weight: 600;
 }
 
 .footer-section p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
   margin-bottom: 0.5rem;
 }
@@ -46,13 +60,13 @@
 }
 
 .footer-section ul li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-  color: #20c997;
+  color: #fbbf24;
   padding-left: 0.5rem;
 }
 
@@ -67,17 +81,19 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
   color: white;
   font-size: 1.2rem;
   transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
 }
 
 .social-links a:hover {
-  background: #20c997;
+  background: #fbbf24;
+  color: #0e7490;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(32, 201, 151, 0.4);
+  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.5);
 }
 
 .footer-bottom {
@@ -85,12 +101,14 @@
   margin: 0 auto;
   padding: 2rem 2rem 1rem;
   margin-top: 3rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-bottom p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
   margin: 0;
 }
@@ -101,7 +119,7 @@
     gap: 2rem;
   }
   
-  .social-links {
-    justify-content: center;
+  .footer {
+    padding: 3rem 0 1rem;
   }
 }

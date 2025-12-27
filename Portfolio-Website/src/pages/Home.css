@@ -7,7 +7,7 @@
 
 .home {
   margin-top: 70px;
-  background: #ffffff;
+  background: #f0f9ff;
 }
 
 /* HERO - VIBRANT GRADIENT */
@@ -86,16 +86,16 @@
 }
 
 .btn-primary {
-  background: white;
-  color: #06b6d4;
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color: #0f172a;
+  box-shadow: 0 10px 30px rgba(251, 191, 36, 0.4);
+  font-weight: 800;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.4);
-  background: #fbbf24;
-  color: #0f172a;
+  box-shadow: 0 15px 40px rgba(251, 191, 36, 0.6);
+  background: linear-gradient(135deg, #fde047 0%, #fbbf24 100%);
 }
 
 .btn-secondary {
@@ -163,10 +163,10 @@
   color: #fbbf24;
 }
 
-/* FEATURES - WHITE CARDS */
+/* FEATURES - LIGHT CYAN CARDS */
 .features {
   padding: 8rem 2rem;
-  background: #f8fafc;
+  background: linear-gradient(180deg, #f0f9ff 0%, #fdf4ff 100%);
 }
 
 .features .container {
@@ -204,10 +204,11 @@
 }
 
 .feature-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
   padding: 3rem;
   border-radius: 24px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid rgba(6, 182, 212, 0.2);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -260,7 +261,7 @@
 /* HOW IT WORKS - COLORFUL STEPS */
 .how-it-works {
   padding: 8rem 2rem;
-  background: white;
+  background: linear-gradient(180deg, #fdf4ff 0%, #f0f9ff 100%);
 }
 
 .how-it-works .container {
@@ -275,11 +276,12 @@
   margin-top: 5rem;
 }
 
-.step-card {
-  background: #f8fafc;
+.step-card {rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
   padding: 3rem;
   border-radius: 24px;
   text-align: center;
+  border: 1px solid rgba(236, 72, 153, 0.2)
   border: 1px solid #e2e8f0;
   transition: all 0.3s ease;
 }
@@ -383,11 +385,12 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
-
-.stat-box {
-  background: white;
+rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
   padding: 3rem 2rem;
   border-radius: 24px;
+  text-align: center;
+  border: 2px solid rgba(6, 182, 212, 0.3)
   text-align: center;
   border: 2px solid #e2e8f0;
   transition: all 0.3s ease;
@@ -461,17 +464,16 @@
   flex-wrap: wrap;
   position: relative;
   z-index: 1;
-}
-
-.cta-buttons .btn {
-  background: white;
-  color: #06b6d4;
+}linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color: #0f172a;
   font-weight: 800;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(251, 191, 36, 0.5);
 }
 
 .cta-buttons .btn:hover {
-  background: #fbbf24;
+  background: linear-gradient(135deg, #fde047 0%, #fbbf24 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(251, 191, 36, 0.7
   color: #0f172a;
   transform: translateY(-3px);
   box-shadow: 0 15px 40px rgba(251, 191, 36, 0.4);
